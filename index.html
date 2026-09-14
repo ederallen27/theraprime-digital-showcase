@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TheraPrime Digital | Case Study</title>
+
+  <meta name="description"
+        content="Case study de TheraPrime Digital: web, CRM, reservas, automatización y sistemas digitales para negocios.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #070b10;
+      color: #eef7fb;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: auto;
+    }
+
+    header {
+      border-bottom: 1px solid #17212b;
+      padding: 22px 0;
+      position: sticky;
+      top: 0;
+      background: rgba(7, 11, 16, .94);
+      backdrop-filter: blur(12px);
+      z-index: 10;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-weight: 800;
+      font-size: 21px;
+      letter-spacing: .3px;
+    }
+
+    .brand span {
+      color: #58d8f5;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 100px 0 80px;
+    }
+
+    .eyebrow {
+      color: #58d8f5;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 8vw, 92px);
+      line-height: .98;
+      max-width: 1000px;
+      margin-bottom: 28px;
+    }
+
+    .accent {
+      color: #58d8f5;
+    }
+
+    .hero p {
+      color: #aebdca;
+      font-size: 20px;
+      max-width: 760px;
+      margin-bottom: 34px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 9px;
+      border: 1px solid #2c4556;
+      font-weight: 700;
+    }
+
+    .primary {
+      background: #58d8f5;
+      color: #031017;
+      border-color: #58d8f5;
+    }
+
+    section {
+      padding: 70px 0;
+    }
+
+    h2 {
+      font-size: clamp(32px, 5vw, 54px);
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      color: #9eb0bd;
+      max-width: 760px;
+      margin-bottom: 40px;
+    }
+
+    .showcase {
+      display: grid;
+      gap: 60px;
+    }
+
+    .project {
+      border: 1px solid #182631;
+      background: #0b1118;
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    .project img {
+      width: 100%;
+      display: block;
+    }
+
+    .project-content {
+      padding: 25px;
+    }
+
+    .project h3 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      color: #9fb1be;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .feature {
+      background: #0b1118;
+      border: 1px solid #192933;
+      padding: 24px;
+      border-radius: 14px;
+    }
+
+    .feature strong {
+      color: #58d8f5;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      border: 1px solid #243845;
+      background: #0b1118;
+      border-radius: 999px;
+      padding: 9px 14px;
+      font-size: 14px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .cta p {
+      color: #9fb1be;
+      margin: 18px auto 30px;
+      max-width: 650px;
+    }
+
+    footer {
+      border-top: 1px solid #17212b;
+      padding: 28px 0;
+      color: #718491;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      .features {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 70px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="brand">TheraPrime <span>Digital</span></div>
+
+      <div class="nav-links">
+        <a href="#proyecto">Proyecto</a>
+        <a href="#sistemas">Sistemas</a>
+        <a href="#tecnologia">Tecnología</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+
+      <div class="eyebrow">CASE STUDY · THERAPRIME DIGITAL</div>
+
+      <h1>
+        No creamos solo webs.
+        <span class="accent">Creamos sistemas digitales.</span>
+      </h1>
+
+      <p>
+        Web, CRM, reservas, automatización y herramientas de gestión
+        construidas alrededor de cómo funciona un negocio real.
+      </p>
+
+      <div class="buttons">
+        <a class="button primary"
+           href="https://theraprime.es"
+           target="_blank">
+           Ver proyecto real
+        </a>
+
+        <a class="button"
+           href="#proyecto">
+           Explorar case study
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="proyecto">
+    <div class="container">
+
+      <h2>TheraPrime Digital en acción</h2>
+
+      <p class="intro">
+        Un ecosistema desarrollado para transformar una presencia digital
+        en una herramienta capaz de captar clientes, organizar procesos
+        y ayudar en la operación diaria de un negocio.
+      </p>
+
+      <div class="showcase">
+
+        <article class="project">
+          <img src="images/4184fd62-dc55-4e10-9eaf-2928319e27b7.png"
+               alt="TheraPrime Digital">
+
+          <div class="project-content">
+            <h3>Plataforma principal</h3>
+            <p>
+              Presencia digital, captación, demostraciones y acceso
+              a soluciones creadas para negocios reales.
+            </p>
+          </div>
+        </article>
+
+
+        <article class="project">
+          <img src="images/a597b747-f4ad-4b9c-b8fd-6eb315a5a780.png"
+               alt="Solicitud de proyecto">
+
+          <div class="project-content">
+            <h3>Captación estructurada</h3>
+            <p>
+              El proceso comercial comienza entendiendo el negocio,
+              sus necesidades y las funcionalidades que realmente necesita.
+            </p>
+          </div>
+        </article>
+
+
+        <article class="project">
+          <img src="images/6143edf7-8c3b-4320-b8e3-eada844a0e25.png"
+               alt="Barber PRIME">
+
+          <div class="project-content">
+            <h3>Barber PRIME</h3>
+            <p>
+              Ejemplo de solución vertical con reservas, profesionales,
+              servicios y experiencia de cliente.
+            </p>
+          </div>
+        </article>
+
+
+        <article class="project">
+          <img src="images/e245f9d0-3c8f-4992-b798-561051add222.png"
+               alt="Barber PRIME plataforma">
+
+          <div class="project-content">
+            <h3>Sistema funcional</h3>
+            <p>
+              Reservas, CRM, clientes y gestión operativa integrados
+              en una misma solución.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="sistemas">
+    <div class="container">
+
+      <h2>Más que diseño</h2>
+
+      <div class="features">
+
+        <div class="feature">
+          <strong>CRM</strong>
+          Gestión de leads y clientes.
+        </div>
+
+        <div class="feature">
+          <strong>Reservas</strong>
+          Agenda y disponibilidad online.
+        </div>
+
+        <div class="feature">
+          <strong>Automatización</strong>
+          Procesos que reducen trabajo manual.
+        </div>
+
+        <div class="feature">
+          <strong>Integraciones</strong>
+          APIs, webhooks y pagos.
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="tecnologia">
+    <div class="container">
+
+      <h2>Tecnología</h2>
+
+      <p class="intro">
+        Diferentes tecnologías utilizadas según las necesidades
+        de cada módulo del ecosistema.
+      </p>
+
+      <div class="stack">
+        <span class="tag">WordPress</span>
+        <span class="tag">PHP</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">HTML / CSS</span>
+        <span class="tag">Python</span>
+        <span class="tag">Flask</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">Webhooks</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Render</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="cta">
+    <div class="container">
+
+      <h2>¿Quieres algo parecido para tu negocio?</h2>
+
+      <p>
+        Creamos soluciones digitales adaptadas a la operación real
+        de cada negocio.
+      </p>
+
+      <a class="button primary"
+         href="https://theraprime.es"
+         target="_blank">
+         Solicitar una demo
+      </a>
+
+    </div>
+  </section>
+
+</main>
+
+
+<footer>
+  <div class="container">
+    TheraPrime Digital · España · Case Study
+  </div>
+</footer>
+
+</body>
+</html>
