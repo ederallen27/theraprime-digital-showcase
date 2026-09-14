@@ -2,7 +2,35 @@
 
 > Ecosistema digital para negocios: web, CRM, reservas, automatización y gestión de clientes.
 
-🌐 **Proyecto en producción:** https://theraprime.es
+🌐 **Proyecto en producción:** [theraprime.es](https://theraprime.es)
+
+---
+
+## 🚀 TheraPrime Digital en acción
+
+### Plataforma principal
+
+![TheraPrime Digital](images/4184fd62-dc55-4e10-9eaf-2928319e27b7.png)
+
+Una plataforma diseñada para convertir una presencia digital en una herramienta real de negocio: captación, reservas, CRM, automatización y gestión.
+
+### Captación estructurada de proyectos
+
+![Solicitud de proyecto](images/a597b747-f4ad-4b9c-b8fd-6eb315a5a780.png)
+
+El proceso comercial comienza con una solicitud estructurada que permite entender las necesidades del negocio antes de preparar una propuesta.
+
+### Barber PRIME
+
+![Barber PRIME](images/6143edf7-8c3b-4320-b8e3-eada844a0e25.png)
+
+Ejemplo de producto vertical desarrollado dentro del ecosistema TheraPrime Digital, orientado a barberías y negocios que trabajan mediante reservas.
+
+### Sistema funcional
+
+![Barber PRIME Showcase](images/e245f9d0-3c8f-4992-b798-561051add222.png)
+
+Reservas, clientes, profesionales y gestión operativa integrados en una misma solución.
 
 ---
 
@@ -154,7 +182,7 @@ Actualmente se siguen desarrollando nuevas automatizaciones, integraciones y pro
 
 Si tienes un negocio y quieres digitalizar reservas, clientes, procesos o automatizaciones:
 
-🌐 https://theraprime.es
+🌐 [theraprime.es](https://theraprime.es)
 
 📍 España
 
